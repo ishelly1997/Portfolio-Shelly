@@ -40,18 +40,19 @@ header .about-me {
     position: relative;
 }
 
+
 header .my-work {
     float: left;
     position: relative;
 }
-/*section .horiseon-webpage {
-    
+section .horiseon-webpage {
+    display: flex
 }
 section .run-buddy {
-
+    display: flex
 }
 section .more-to-come {
-
+    display: flex
 }
 /*footer style start*/
 footer {
@@ -67,6 +68,10 @@ footer h3 {
 footer li {
     text-indent: center;
     text-align: justify;
+    margin-left: 25px;
+}
+footer ul {
+    display: flex;
 }
 /*other elements style start*/
 .hero {
@@ -77,9 +82,14 @@ footer li {
     background-size: cover;
     background-position: center;
 }
-.hero h3 {
-    text-align: bottom;
-    margin: 0;
+.hero h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     z-index: 1;
 }
 .my-work {
@@ -87,8 +97,8 @@ footer li {
     flex-wrap: wrap;
 }
 .run-buddy img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -107,11 +117,11 @@ footer li {
     flex: 0 0 300px;
     box-shadow: 10px 10px 5px #574848;
     margin: 20px;
-    hover ;
+    position: relative;
 }
 .more-to-come img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
