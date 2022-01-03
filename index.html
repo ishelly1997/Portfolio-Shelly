@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Shelly Portfolio</title>
+    <title>Isabel Shelly Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1>Shelly Portfolio</h1>
+        <h1>Isabel Shelly Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a>
@@ -18,18 +19,53 @@
                 </li>
                 <li><a href="#contact-me">Contact Me</a>
                 </li>
-                <li><a href="#resume">Resume</a>
-                </li>
             </ul>
         </nav>
     </header>
-    <div class="hero" alt="background-image">
-    </div>
-    <section class="site-content">
+    <main>
+        <!--HeroBanner with subtitle-->
+        <div class="hero">
+            <h3></h3>
+        </div>
+        <article class="about-me" id="about-me">
+            <header>About Me</header>
+            <p>TEXT ABOUT ME</p>
+        <!-- projects  -->
+        <div class="my-work" id="my-work">
+            <header>My Work</header>
+            <section class="horiseon-webpage">
+                <h2>Horiseon Webpage</h2>
+                <a href="https://ishelly1997.github.io/Horiseon-Webpage/">
+                    <img src="./assets/horiseon-webpage.jpg" alt="screenshot of shelly's first webpage assignment for an advertising agency"/>
+                </a>
+                <p>Project Description</p>
+            </section>
+          <section class="run-buddy">
+            <h2>Run Buddy</h2>
+            <img src="./assets/run-buddy.jpg" alt="image from run-buddy website of sneakers" />
+            <p>Project Description</p>
+          </section>
+          <section class="more-to-come">
+            <h2>More To Come</h2>
+            <img src="./assets/emoji.jpg" alt="happy melting emoji" />
+          </section>
+        </div>
+      </main>        
 
-    </section>
+    <!--Find imgs - add alt attr to all images n shit
+        when scroll over img, it becomes bigger than the other icons
+        when you click the img it will take you to the deployed site
+    Set up boxes and consider what will be used--CSS flexbox/wrap
+
+-->
+    <!--Contact me will be footer & add a href links to bottom-->
     <footer>
-        <div class="contact-me"></div>
+        <div class="contact-me" id="contact-me"></div>
         <h3>Contact Me</h3>
+        <ul>
+            <li>914-382-4903</li>
+            <li>ishelly1997@gmail.com</li>
+            <li><a href="https://github.com/ishelly1997">GitHub</li>
+        </ul>
     </footer>
 </body>
